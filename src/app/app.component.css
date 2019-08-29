@@ -1,0 +1,20 @@
+
+
+.nav-link {
+    line-height: 30px;
+    color: whitesmoke;
+    background-color: blanchedalmond;
+    height: 100px;
+    width:100px;
+    float: left;
+    padding:5px;
+
+}
+
+.center {
+    text-align: center;
+    color:whitesmoke;
+    background-color: black;
+    text-align: center;
+    padding:20px;
+}
