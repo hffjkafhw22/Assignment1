@@ -1,3 +1,21 @@
-<p>
-  login works!
-</p>
+<router-outlet></router-outlet>
+<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" rel="stylesheet">
+<div class="login-page">
+    <div class="form">
+      <form class="register-form">
+        <input type="email" name="email" id="email1" placeholder="Email" required="required" [(ngModel)]= "email">
+        <input type="password" name="password" id="password1" placeholder="Password" required="required" [(ngModel)]= "password">
+        <button>create</button>
+        
+      </form>
+      
+      <form class="login-form">
+          <input type="email" name="email" id="email" placeholder="email" required="required" [(ngModel)]= "email">
+          <input type="password" name="password" id="password" placeholder="password" required="password" [(ngModel)]= "password">
+          <button class ="btn" (ng-click) ="save($event)">login</button>
+          <p class="message">Not registered? <a href="/register">Create an account</a></p>
+          <div id="errormsg">{{errormsg}}</div>
+        </form>
+    </div>
+    
+  </div>

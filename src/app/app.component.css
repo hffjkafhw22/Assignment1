@@ -1,20 +1,40 @@
 
-
-.nav-link {
-    line-height: 30px;
-    color: whitesmoke;
-    background-color: blanchedalmond;
-    height: 100px;
-    width:100px;
-    float: left;
-    padding:5px;
-
-}
-
-.center {
+.header .logo{
     text-align: center;
     color:whitesmoke;
-    background-color: black;
     text-align: center;
     padding:20px;
+    font-size: 50px;
+    background-color: black;
+    color:whitesmoke;
+
 }
+
+.header .nav{
+    overflow:auto;
+    background-color: royalblue;
+    
+
+}
+
+.header .nav a {
+    line-height: 50px;
+    font-size-adjust: 17px;
+    color: #fff;
+    background-color: royalblue;
+    float: left;
+    padding:5px;
+    text-decoration: none; 
+}
+
+.header .nav a:hover {
+   
+    background-color: orange;
+   
+}
+
+
+
+ body{
+    margin:0;
+ }

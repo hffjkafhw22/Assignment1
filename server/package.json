@@ -1,0 +1,25 @@
+{
+  "name": "chatroom",
+  "version": "1.0.0",
+  "description": "chatroom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hffjkafhw22/Assignment1.git"
+  },
+  "keywords": [
+    "chatroom"
+  ],
+  "author": "hongyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hffjkafhw22/Assignment1/issues"
+  },
+  "homepage": "https://github.com/hffjkafhw22/Assignment1#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
