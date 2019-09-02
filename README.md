@@ -11,6 +11,8 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app w
 In my git repository structure,  it has the two main parts, one is the folder part, in this folder part , such as e2e, server and src folder which has the main coding contents, e2e is the initial commit, server provides the server services for the whole website process and src is the main body of the website, such as the homepage, login page and any other main pages; the other part is document and json file, such as README.md to record the git development process into the document, and json files to record the package, angular details in the git repository.
 I usually updated my latest parts through the github to save my development and each commit means I completed one parts in the assignment in one time.
 
+
+
 ## Description of data structures used in both the client and server sides to represent the various entities, e.g.: users, groups, channels, etc. 
 
 In my data structure in both the client and server sides, for the client, it would own the register to collect the user’s email, username, passwords, age into the local storage.  For the users, groups, channels are stored into the localsotrage and data is stored into the JSON. By using the this.currentUser = JSON.parse(sessionStorage.getItem('currentUser'));  
@@ -65,6 +67,17 @@ Obeser service provides the user’s details and check the passwords into the ac
   users:User[] = [{'email':'123@com','password':'123','username':'Brd Raey','birthdate':'123','age':5,'valid':false},
         {'email':'1234@1234','password':'123','username':'Jodi','birthdate':'123','age':15,'valid':false},
         {'email':'1234@123','password':'123456','username':'Sarah','birthdate':'123','age':25,'valid':false}]
+
+Angular is made by the HTML, css, server, ts file to server the based part and used the angular parts (router, httpclient,) to link each part in the project process.
+ <div class=" button">
+         <button >.....</button>
+         <image src="....."></image>
+   </div>
+
+<div class="alert alert-danger" *ngIf="err_message">{{err_ormsg}}</div>
+
+[(ngModel)]= "password"
+
 
 
 ##  Node server architecture: modules, functions, files, global variables. 
