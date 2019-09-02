@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
-import {Router} from '@angular/router';
-
+import { Router } from '@angular/router';
+import { AuthService } from './services/auth.service';
+import { HttpClient } from '@angular/common/http';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,16 +10,29 @@ import {Router} from '@angular/router';
 export class AppComponent {
   title = 'Assignment1';
 
-  constructor(private router:Router) { }
+  constructor(private http: HttpClient,
+    private router: Router
+    ) { }
+
 
   ngOnInit(){
     
     
   }
-  logout(){
-    sessionStorage.removeItem ('currentUser');
+
+  logout (e) {
+    e.preventDefault()
+    this.http.delete('http://localhost:4200/session')
+      .toPromise()
+      .then(data => {
+          window.localStorage.removeItem('auth_token')
+          this.router.navigate(['/login'])
+        })
+
+      .catch(err => {
+        window.alert('log failed')
+      })
     
-    this.router.navigate(['/login']);
   }
 
 

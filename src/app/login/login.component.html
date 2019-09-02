@@ -14,7 +14,7 @@
           <input type="password" name="password" id="password" placeholder="password" required="password" [(ngModel)]= "password">
           <button class ="btn" (ng-click) ="save($event)">login</button>
           <p class="message">Not registered? <a href="/register">Create an account</a></p>
-          <div id="errormsg">{{errormsg}}</div>
+          <div class="alert alert-danger" *ngIf="err_message">{{err_ormsg}}</div>
         </form>
     </div>
     
