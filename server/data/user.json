@@ -2,37 +2,38 @@
     {
       "id" : 1,
       "age": 23,
-      "name": "Bird Ramsey",
+      "name": "Brd Raey",
       "gender": "male",
-      "company": "NIMON",
+      "company": "NION",
       "email": "123@com"
     },
     {
         "id" : 2,
       "age": 31,
-      "name": "Lillian Burgess",
+      "name": "Liln Burss",
       "gender": "female",
-      "company": "LUXURIA",
+      "company": "LUXIA",
       "email": "1234@com"    },
     {
         "id" : 3,
       "age": 34,
-      "name": "Kristie Cole",
+      "name": "Krise Cole",
       "gender": "female",
-      "company": "QUADEEBO",
+      "company": "QUEEBO",
       "email": "1235@com"    },
     {
         "id" : 4,
       "age": 30,
-      "name": "Leonor Cross",
+      "name": "Ler Cross",
       "gender": "female",
-      "company": "GRONK",
+      "company": "GRNK",
       "email": "1236@com"    },
 
     {
         "id" : 5,
       "age": 28,
-      "name": "Marsh Mccall",
+      "name": "Ma Mall",
       "gender": "male",
+      "company": "GRNK",
       "email": "1237@com"    }
   ]

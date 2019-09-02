@@ -22,7 +22,7 @@ export class AppComponent {
 
   logout (e) {
     e.preventDefault()
-    this.http.delete('http://localhost:4200/session')
+    this.http.delete('http://localhost:4200/')
       .toPromise()
       .then(data => {
           window.localStorage.removeItem('auth_token')

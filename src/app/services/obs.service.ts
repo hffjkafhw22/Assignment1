@@ -8,7 +8,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ObsService {
-  users:User[] = [{'email':'123@com','password':'123','username':'allan','birthdate':'123','age':5,'valid':false},
+  users:User[] = [{'email':'123@com','password':'123','username':'Brd Raey','birthdate':'123','age':5,'valid':false},
         {'email':'1234@1234','password':'123','username':'Jodi','birthdate':'123','age':15,'valid':false},
         {'email':'1234@123','password':'123456','username':'Sarah','birthdate':'123','age':25,'valid':false}]
   
