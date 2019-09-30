@@ -9,6 +9,7 @@ import { AccountComponent } from './account/account.component';
 import { RegisterComponent } from './register/register.component';
 import { CommonModule } from '@angular/common'; 
 import { Routes, RouterModule } from '@angular/router';
+import { ChattingComponent } from './chatting/chatting.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { Routes, RouterModule } from '@angular/router';
     AppComponent,
     LoginComponent,
     AccountComponent,
-    RegisterComponent
+    RegisterComponent,
+    ChattingComponent
     
   ],
   imports: [
